@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Textbook Skill Interoperability Artifact",
+  "type": "object",
+  "required": ["artifact_id", "skill_id", "skill_version", "artifact_type", "status", "source_ids", "uncertainty_ids", "next_action"],
+  "properties": {
+    "artifact_id": {"type": "string"}, "project_id": {"type": "string"}, "task_id": {"type": "string"},
+    "skill_id": {"type": "string"}, "skill_version": {"type": "string"}, "artifact_type": {"type": "string"},
+    "status": {"type": "string"}, "payload": {"type": "object"}, "source_ids": {"type": "array"},
+    "evidence_ids": {"type": "array"}, "provenance_ids": {"type": "array"}, "uncertainty_ids": {"type": "array"},
+    "learner_decisions": {"type": "array"}, "ai_use_log": {"type": "array"}, "human_review": {"type": "object"},
+    "next_action": {"type": "string"}
+  },
+  "additionalProperties": true
+}

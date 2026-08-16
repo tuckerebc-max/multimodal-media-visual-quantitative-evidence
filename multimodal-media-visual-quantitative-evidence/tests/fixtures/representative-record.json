@@ -1,0 +1,1 @@
+{"artifact_id":"MEDIA-REP-001","skill_id":"EXP-MEDIA","status":"READY_WITH_CONDITIONS","representation_records":[{"mode":"chart","locator":"figure-1"}],"claim_evidence_links":[{"claim_id":"CLM-1","evidence_id":"EVD-1"}],"uncertainties":["denominator and selection need confirmation"],"next_action":"verify source data, units, and accessible equivalent"}

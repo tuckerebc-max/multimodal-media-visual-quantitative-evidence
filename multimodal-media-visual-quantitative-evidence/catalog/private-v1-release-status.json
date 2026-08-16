@@ -1,0 +1,11 @@
+{
+  "package_id": "EXP-MEDIA",
+  "private_v1_state": "READY_FOR_PRIVATE_DRY_RUN",
+  "active_use": "low_risk_owner_workflows",
+  "design_state": "READY_WITH_CONDITIONS",
+  "structural_validation": "PASS",
+  "fixture_contract": "PASS",
+  "independent_forward_test": "NOT_VERIFIED_SUBAGENT_ACL_BLOCKED",
+  "github_publication": "PENDING_PRIVATE_REPOSITORY_CREATION",
+  "conditions": ["source locators", "rights/currentness", "original multimodal fixtures", "accessible equivalents", "quantitative validity review"]
+}

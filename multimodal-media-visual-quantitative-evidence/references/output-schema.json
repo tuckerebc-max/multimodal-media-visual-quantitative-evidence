@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Multimodal Evidence Artifact",
+  "type": "object",
+  "required": ["artifact_id", "status", "representation_records", "claim_evidence_links", "uncertainties", "next_action"],
+  "properties": {
+    "artifact_id": {"type": "string"}, "status": {"type": "string"},
+    "representation_records": {"type": "array"}, "provenance_records": {"type": "array"},
+    "encoding_audits": {"type": "array"}, "claim_evidence_links": {"type": "array"},
+    "quantitative_checks": {"type": "array"}, "accessibility_equivalents": {"type": "array"},
+    "uncertainties": {"type": "array"}, "learner_decisions": {"type": "array"}, "next_action": {"type": "string"}
+  },
+  "additionalProperties": true
+}

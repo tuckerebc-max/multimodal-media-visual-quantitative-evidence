@@ -1,0 +1,10 @@
+{
+  "skill_id": "EXP-MEDIA",
+  "fixtures": [{
+    "id": "MEDIA-FIX-001",
+    "task": "Audit two charts that represent the same public data with different denominators and scales, then create an accessible comparison.",
+    "expected": ["encoding audit", "units/scale/denominator check", "provenance", "claim fit", "accessible equivalent", "uncertainty"],
+    "critical_failures": ["invented values", "visual polish treated as validity", "missing denominator", "inaccessible-only output"]
+  }]
+}
+

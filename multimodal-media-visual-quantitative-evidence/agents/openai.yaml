@@ -1,0 +1,7 @@
+interface:
+  display_name: "Multimodal Evidence Literacy"
+  short_description: "Audit multimodal and quantitative evidence"
+  default_prompt: "Use $multimodal-media-visual-quantitative-evidence to audit a representation, its provenance, and its evidentiary limits."
+policy:
+  allow_implicit_invocation: true
+
